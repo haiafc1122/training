@@ -18,7 +18,7 @@ class CreateClientsTable extends Migration
             $table->string('title')->default_('0')->comment('クライアントの案件のタイトル');
             $table->dateTime('started_date')->comment('クライアントの案件の開始');
             $table->dateTime('end_date')->comment('クライアントの案件の締め切りの日');
-            $table->string('url')->default_('0')->unique()->comment('クライアントの案件の提供するリンク');
+            $table->string('url')->default_('0')->comment('クライアントの案件の提供するリンク');
             $table->string('banner')->default_('0')->comment('クライアントの案件の写真');
             $table->integer('point_num')->default_('0')->comment('クライアントの案件の提供するポイント数');
             $table->tinyInteger('rate')->default_('0')->comment('ユーザーに出すポイントの割合');

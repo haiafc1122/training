@@ -210,7 +210,7 @@ abstract class Renderer
         );
 
         if ($node instanceof DirectoryNode) {
-            $buffer .= '        <li>(<a href="dashboard.blade.php">Dashboard</a>)</li>' . "\n";
+            $buffer .= '        <li>(<a href="dashboard.html">Dashboard</a>)</li>' . "\n";
         }
 
         return $buffer;
